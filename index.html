@@ -5,62 +5,46 @@
 	<meta http-equiv="X-UA-COMPATIBLE" content=""IE=edge">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" />
-    <title>Mike's Profile</title>
+    <title>PersonNamedMike - Home</title>
   </head>
   <body>
 	<div class="container">
-		<nav>
-			<ul>
-				<li><a href="#">Start Here</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Climbing</a></li>
-				<li><a href="https://github.com/personnamedmike" target="_blank">github</a></li>
-			</ul>
-		</nav>
-		<h1>PersonNamedMike's Website</h1>
-		<div>
-			<img class="pics" src="prof-pic.jpg">
+		<div class="navbar">
+			<nav>
+				<a href="#">Home</a>
+				<a href="https://github.com/personnamedmtarget="_blank">GitHub</a>
+				<div class="dropdown">
+					<button class="dropbtn">Projects</button>
+					<div class="dropdown-content">
+						<a href="#">Blackjack</a>
+						<a href="#">Calendar</a>
+					</div>
+				</div>
+				<a href="./climbing.html">Climbing</a>
+			</nav>
 		</div>
-		<div>
-			<h2>Who is PersonNamedMike anyway?</h2>
-			<p>Hi. I'm a person, and my name is Mike.</p>
-			<p>By the end of 2022 I plan to be a software developer in the blockchain space.</p>
+		<h1>Who is PersonNamedMike?</h1>
+		<div class="main-column">
+			<div>
+				<img class="pics" src="photos/prof-pic.jpg">
+			</div>
+			<p>Greetings. I'm a person, and my name is Mike.</p>
+			<p>By the end of 2022, my goal is to be a software developer in the blockchain space.</p>
 			<p>I've been interested in the blockchain space since 2014. It has the potential to make people's live's better. Banks are mostly obsolete at this point. There are constantly scandals, they charge ridiculous fees, and generally do not provide much value for customers. It's laughable that you might get 0.01% interest (if you're lucky).</p>
 			<p>The current financial system was designed by the rich, for the rich. To become an accredited investor, you must be rich to begin with. If you can afford to be an accredited investor, you probably don't need the services available to you anyway.</p>
 			<p>I think this is utter nonsense, and blockchain/crypto is revolutionary technology that is changing this. It's available for anybody with an internet connection. It's easier to use, has less restrictions, and you can earn more on your money</p>
 			<p>My goal is to be a part of this revolution, and to contribute by becoming a developer in the space.</p>
 			<p>My first major step in achieving this goal will be taking a software engineering bootcamp at Flatiron School! I'll using this website as a personal portfolio. I'll link projects that I've built, and you can view everything on my <a href="https://github.com/personnamedmike">github</a> page.</p>
 		</div>
-		<hr>
-		<div>
-			<h2>Mountain Climbing</h2>
-			<img class="pics" src="whitney.jpg">
-			<p>When my head isn't buried in tech, I enjoy climbing (suffering) in the mountains for fun. My favorite style of climbing is long multi pitch routes in the alpine.</p>
-			<p>Some of my favorite places I've climbed are Las Vegas, California, New Hampshire, Colombia, and Thailand.</p>
-			<p>Here are pictures of some of my favorite climbs:</p>
-			<figure>
-				<img class="pics" src="whitney.jpg">
-				<figcaption>Mount Whitney, East Buttress. 5.7. Sierra Nevada, California</figcaption>
-			</figure>
-			<figure>
-				<img class="pics" src="whitney.jpg">
-				<figcaption>Temple Crag, Venusian Blind, 5.7. Sierra Nevada, California</figcaption>
-			</figure>
-			<figure>
-				<img class="pics" src="whitney.jpg">
-				<figcaption>Epinephrine, 5.9. Las Vegas, Nevada</figcaption>
-			</figure>
-			<figure>
-				<img class="pics" src="whitney.jpg">
-				<figcaption>Kirkjufell, Iceland</figcaption>
-			</figure>
-			<figure>
-				<img class="pics" src="whitney.jpg">
-				<figcaption>Railay Beach, Thailand</figcaption>
-			</figure>	
-		</div>
 
-		<footer class="footer"><p><strong>Donate: </strong>BTC address: 0x000 | ETH address: 0x001 | LUNA address: terra0x000</footer></p>
+		<hr>
+		
+		<footer class="footer">
+			<div>
+				<p><strong>Donate: </strong>BTC address: 0x000 | ETH address: 0x000</p>
+				<p><strong>Contact:</strong> imhs@protonmail.com</p>
+			</div>
+		</footer>
 	</div>
     <script src="./script.js"></script>
   </body>
